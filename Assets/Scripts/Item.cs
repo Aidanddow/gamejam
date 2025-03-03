@@ -1,16 +1,18 @@
-using System;
 using UnityEngine;
 
 public class Item : MonoBehaviour
 {
+    [Range(-10, 10)]
+    [Tooltip("Value used to modify player coin balance when collected")]
+    public int coinModifier;
+    public string description;
+    [Range(1, 10)]
+    [Tooltip("Higher value means faster item speed when falling")]
     public float fallSpeed = 2f;
-    public ItemType type;
 
     void Awake()
     {
-        // name = $"Item ({type.description})";
-        // var spriteRenderer = GetComponent<SpriteRenderer>();
-        // spriteRenderer.color = type.color;
+        name = $"Item ({description})";
     }
 
     void Update()

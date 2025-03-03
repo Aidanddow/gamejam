@@ -175,5 +175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0deda031db1004241b11f567185df946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinModifier: 0
+  description: Unknown
   fallSpeed: 2
-  type: {fileID: 0}

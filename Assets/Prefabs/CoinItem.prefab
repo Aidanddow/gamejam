@@ -8,9 +8,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1109389248365149214, guid: f49b4cba7deb34f5d95d3691c195a3c3, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 4.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109389248365149214, guid: f49b4cba7deb34f5d95d3691c195a3c3, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 4.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396289325746419598, guid: f49b4cba7deb34f5d95d3691c195a3c3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7675826601332790545, guid: 41a3c09d4cadb4967ad663ff64e99f96, type: 3}
     - target: {fileID: 2396289325746419598, guid: f49b4cba7deb34f5d95d3691c195a3c3, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2396289325746419598, guid: f49b4cba7deb34f5d95d3691c195a3c3, type: 3}
       propertyPath: m_Color.g
@@ -18,7 +30,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2396289325746419598, guid: f49b4cba7deb34f5d95d3691c195a3c3, type: 3}
       propertyPath: m_Color.r
-      value: 0.9827944
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2396289325746419598, guid: f49b4cba7deb34f5d95d3691c195a3c3, type: 3}
       propertyPath: m_SortingLayer
@@ -72,13 +84,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3686959087518543478, guid: f49b4cba7deb34f5d95d3691c195a3c3, type: 3}
+      propertyPath: description
+      value: Coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686959087518543478, guid: f49b4cba7deb34f5d95d3691c195a3c3, type: 3}
+      propertyPath: coinModifier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686959087518543478, guid: f49b4cba7deb34f5d95d3691c195a3c3, type: 3}
+      propertyPath: scoreModifier
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6144510541605751591, guid: f49b4cba7deb34f5d95d3691c195a3c3, type: 3}
       propertyPath: m_Name
-      value: GoodItem Variant
+      value: CoinItem
       objectReference: {fileID: 0}
     - target: {fileID: 6144510541605751591, guid: f49b4cba7deb34f5d95d3691c195a3c3, type: 3}
       propertyPath: m_TagString
-      value: GoodItem
+      value: Item
       objectReference: {fileID: 0}
     - target: {fileID: 7617841959085213912, guid: f49b4cba7deb34f5d95d3691c195a3c3, type: 3}
       propertyPath: m_GravityScale

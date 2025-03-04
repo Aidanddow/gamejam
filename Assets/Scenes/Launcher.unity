@@ -1125,23 +1125,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Welcome to Budget Me!
+  m_text: 'Welcome to Oink ''n'' Earn!
 
 
-    This is a quick and easy way for you to learn
-    how to spend and save your money.
+    This is a quick and easy way for you
+    to learn how to become a money master!
 
 
-    The rules are simple:
+    Here''s how to play:
 
 
-    > Collect
-    coins to grow your piggy bank
+    > Catch
+    the Coins! Dodge falling sweets and grab as many coins as you can.
 
-    > Decide what to do with your coins after
+    > Make
+    Choices! Spend on cool stuff for your room or save for bigger goals.
 
-    >
-    Have enouhg coins to budget with'
+    > Build
+    Your future! The more you save, the better your piggy bank gets!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3e57190c989a94e0c9f689ba400df1e7, type: 2}
   m_sharedMaterial: {fileID: 3038928938740216872, guid: 3e57190c989a94e0c9f689ba400df1e7, type: 2}

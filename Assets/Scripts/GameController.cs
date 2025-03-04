@@ -92,8 +92,9 @@ public class GameController : MonoBehaviour
 
     private void UpdateMiniGameScoreboard()
     {
+        var coinsGained = Mathf.Max(0, _coinBalance - _startingCoinBalance);
         scoreboard.SetActive(!_isMiniGameActive);
-        scoreLabel.text = Mathf.Max(0, _coinBalance - _startingCoinBalance).ToString();
+        scoreLabel.text = coinsGained == 1 ? $"{coinsGained} Coin" : $"{coinsGained} Coins";
     }
 
     private void UpdateMiniGameTimer()

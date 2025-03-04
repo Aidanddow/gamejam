@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
 
     public TextMeshProUGUI coinCounterLabel;
     public GameObject scoreboard;
+    public TextMeshProUGUI scoreLabel;
     public TextMeshProUGUI timerLabel;
     [Range(1, 60)]
     [Tooltip("Duration of the mini game in seconds")]
@@ -16,6 +17,7 @@ public class GameController : MonoBehaviour
     private int _coinBalance;
     private bool _isMiniGameActive = true;
     private float _remainingMiniGameDuration;
+    private int _startingCoinBalance;
 
     void Awake()
     {
@@ -34,6 +36,7 @@ public class GameController : MonoBehaviour
     {
         _isMiniGameActive = true;
         _remainingMiniGameDuration = miniGameDuration;
+        _startingCoinBalance = _coinBalance;
     }
 
     void Update()
@@ -66,6 +69,7 @@ public class GameController : MonoBehaviour
     {
         _isMiniGameActive = true;
         _remainingMiniGameDuration = miniGameDuration;
+        _startingCoinBalance = _coinBalance;
 
         // Unpause game
         Time.timeScale = 1f;
@@ -89,6 +93,7 @@ public class GameController : MonoBehaviour
     private void UpdateMiniGameScoreboard()
     {
         scoreboard.SetActive(!_isMiniGameActive);
+        scoreLabel.text = Mathf.Max(0, _coinBalance - _startingCoinBalance).ToString();
     }
 
     private void UpdateMiniGameTimer()

@@ -9,7 +9,7 @@ public class GameController : MonoBehaviour
     public TextMeshProUGUI coinCounterLabel;
     public GameObject scoreboard;
     public TextMeshProUGUI timerLabel;
-    [Range(1, 360)]
+    [Range(1, 60)]
     [Tooltip("Duration of the mini game in seconds")]
     public float miniGameDuration = 30f;
 

@@ -302,7 +302,7 @@ MonoBehaviour:
   coinCounterLabel: {fileID: 5805409}
   scoreboard: {fileID: 305777085}
   timerLabel: {fileID: 287764223}
-  miniGameDuration: 360
+  miniGameDuration: 30
 --- !u!1 &180628705
 GameObject:
   m_ObjectHideFlags: 0
